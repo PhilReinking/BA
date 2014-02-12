@@ -1,4 +1,9 @@
 # Final Text
+Die IndexedDB ist eine HTML5 Spezifikation und befindet sich im Entwicklungsprozess des W3C in der 'Last Call Working Draft' Phase (http://www.w3.org/TR/IndexedDB/). Die Implementierung in den aktuellen Browsern ist relativ konsistent umgesetzt, d.h. es gibt keine merkbaren Unterschiede. Lediglich Apple mit Safari und iOS bietet aktuell keine Unterstützung für die IndexedDB-Spezifikation.
+
+In aller Kürze, IndexedDB macht es möglich große Datenmengen im Browser des Nutzers zu speichern. Die dort abgelegten Daten können mithilfe einer indexbasierten API durchsucht werden.
+
+Im Gegensatz zu Cookies oder Local Storage besteht für die IndexedDB theoretisch kein Limit was die Größe des verfügbaren Datenspeichers betrifft. Ebenso hat der Local Storage keinen Suchmechanismus, sondern nur die Möglichkeit über einen 'key' auf einen 'value' zuzugreifen. Die IndexedDB kommt dem Begriff einer "Datenbank" also sehr viel näher als der einfache Local Storage.
 
 # Annotations
 
