@@ -1,42 +1,39 @@
 # Final Text
 
-(a) Motivation
+## Motivation
 
-Kommunikation hat sich in den letzten Jahren radikal verändert.
+**Warum lohnt es sich, sich mit dem Thema auseinanderzusetzen? Was ist die wesentliche Leistung der Arbeit?**
 
-Das Nachrichtenwesen hat sich verändert. Es kommt häufig vor das sich Neuigkeiten über Twitter schneller verbreiten als über die klassischen Medien TV, Radio und Print.
+Soziale Netzwerke haben sich in den letzten Jahren zu einem alltäglichen Instrument der Kommunikation und Informationsbeschaffung entwickelt. Menschen können mithilfe solcher Netzwerke sehr einfach miteinander in Kontakt treten, sich vernetzen und organisieren. 
+Auch das Nachrichtenwesen befindet sich zur Zeit im Wandel, denn Informationen verbreiten sich auf Twitter oder Facebook meist schneller, als über klassische Medien wie TV, Radio oder Print.
 
-Blogs entwickeln sich zu zuverlässigen und aktuellen Nachrichtenquellen.
+Ein entscheidener Faktor in einem Netzwerk ist die Orientierung an einem Thema. So entwickeln sich auch immer häufiger auf bestimmte Themenbereiche spezialisierte Plattformen, die unter Umständen zwar weniger Menschen ansprechen können, aber in der grundlegenden Funktionsweise das Thema dieses Netzwerks besser unterstüzen (Beispiele: dribbble.com, stackoverflow.com, github.com). 
 
-Soziale Netzwerke dienen oft als Katalysator für diese Informationen.
+Die mobile Internetnutzung muss als weiterer Faktor genannt werden, dem immer größere Bedeutung zugesprochen wird. Facebook liefert dazu interessante Statistiken. So haben fast 50% der monatlich aktiven Nutzer, das Netzwerk auch von einem mobilen Endgerät benutzt.
+ 
+Hinzu kommt der ständige Fortschritt im Bereich der Webtechnologien, welche auch verstärkt die mobilen Endgeräte wie Smartphones oder Tablets ansprechen.
 
-Informationen können sich durch Netzwerke viral ausbreiten.
+    Kommunikation hat sich in den letzten Jahren radikal verändert.
 
-Diskussionen finden statt.
+    Das Nachrichtenwesen hat sich verändert. Es kommt häufig vor das sich Neuigkeiten über Twitter schneller verbreiten als über die klassischen Medien TV, Radio und Print.
 
-Auf bestimmte Themen ausgerichtete Netzwerke vereinfachen es den Teilnehmern gezielt nach Informationen zu suchen und auszutauschen.
+    Blogs entwickeln sich zu zuverlässigen und aktuellen Nachrichtenquellen.
 
-Firmen setzen oftmals Intranets ein um Mitarbeiter mit Informationen zu versorgen.
+    Soziale Netzwerke dienen oft als Katalysator für diese Informationen.
 
+    Informationen können sich durch Netzwerke viral ausbreiten.
 
+    Diskussionen finden statt.
 
+    Auf bestimmte Themen ausgerichtete Netzwerke vereinfachen es den Teilnehmern gezielt nach Informationen zu suchen und auszutauschen.
 
+    Firmen setzen oftmals Intranets ein um Mitarbeiter mit Informationen zu versorgen.
 
+    Netzwerk: Orientierung an einem Thema
+## Aufgabenstellung im Detail
+**Hier muss deutlich werden: Was ist das Ziel der Arbeit?**
 
+## Umfeld
 
-
-
-
-Soziale Interaktionen mittels Facebook, Twitter und Co sind heutzutage Alltag. Jedoch ist absehbar, dass immer mehr Menschen kleinere und auf bestimmte Themen spezialisierte Plattformen den großen Netzwerken wie Facebook oder Google+ vorziehen. Auch in Unternehmen werden gerne solche Netzwerke, mangels Alternativen, für die interne Kommunikation benutzt.  
-Um der Entstehung von kleinen themen- und aufgabenspezifischen Netzwerken eine Basis zu bieten, soll eine Plattform für ein soziales Extranet entwickelt werden.
-
-Warum lohnt es sich, sich mit dem Thema auseinanderzusetzen? Was ist die wesentliche Leistung der Arbeit?
-
-(b) Aufgabenstellung im Detail
-Hier muss deutlich werden: Was ist das Ziel der Arbeit?
-
-(c) Umfeld (Firma, Projekt) – sofern für die Arbeit relevant.
-
-(d) Beschreibung des Aufbaus der restlichen Arbeit.
-Wie wurde vorgegangen um das zuvor beschriebene Ziel zu erreichen?
-
+## Planung
+**Wie wurde vorgegangen um das zuvor beschriebene Ziel zu erreichen?**
