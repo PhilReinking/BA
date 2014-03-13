@@ -7,11 +7,11 @@
 Soziale Netzwerke haben sich in den letzten Jahren zu einem alltäglichen Instrument der Kommunikation und Informationsbeschaffung entwickelt. Menschen können mithilfe solcher Netzwerke sehr einfach miteinander in Kontakt treten, sich vernetzen und organisieren. 
 Auch das Nachrichtenwesen befindet sich zur Zeit im Wandel, denn Informationen verbreiten sich auf Twitter oder Facebook meist schneller, als über klassische Medien wie TV, Radio oder Print.
 
-Ein entscheidener Faktor in einem Netzwerk ist die Orientierung an einem Thema. So entwickeln sich auch immer häufiger auf bestimmte Themenbereiche spezialisierte Plattformen, die unter Umständen zwar weniger Menschen ansprechen können, aber in der grundlegenden Funktionsweise das Thema dieses Netzwerks besser unterstüzen (Beispiele: dribbble.com, stackoverflow.com, github.com). 
+Ein vor allem entscheidener Faktor in einem Netzwerk ist die Orientierung an einem Thema. So entwickeln sich auch immer häufiger auf bestimmte Themenbereiche spezialisierte Plattformen, die unter Umständen zwar weniger Menschen ansprechen können, aber in der grundlegenden Funktionsweise das Thema dieses Netzwerks besser unterstüzen (Beispiele: dribbble.com, stackoverflow.com, github.com). 
 
-Die mobile Internetnutzung muss als weiterer Faktor genannt werden, dem immer größere Bedeutung zugesprochen wird. Facebook liefert dazu interessante Statistiken. So haben fast 50% der monatlich aktiven Nutzer, das Netzwerk auch von einem mobilen Endgerät benutzt.
+Die mobile Internetnutzung muss als weiterer Faktor genannt werden, dem immer größere Bedeutung zugesprochen wird. Facebook liefert dazu interessante Statistiken. So haben fast 50% der monatlich aktiven Nutzer, das Netzwerk auch von einem mobilen Endgerät genutzt.
  
-Hinzu kommt der ständige Fortschritt im Bereich der Webtechnologien, welche auch verstärkt die mobilen Endgeräte wie Smartphones oder Tablets ansprechen.
+Hinzu kommt der ständige Fortschritt im Bereich der Webtechnologien, welche auch verstärkt die mobilen Endgeräte wie Smartphones oder Tablets ansprechen. Nicht nur durch schnellere Hardware, sondern auch durch bessere JavaScript Interpreter hat ein Softwareentwickler heutzutage größere Chancen auf verschiedensten Endgeräten, ob mobil oder Desktop, die gleichen technischen Vorraussetzungen vorzufinden und somit gleichen Quellcode auf vielen Gräten auszuführen.
 
     Kommunikation hat sich in den letzten Jahren radikal verändert.
 
