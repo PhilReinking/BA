@@ -1,10 +1,14 @@
 # Final Text
 
-NoSQL ist im allgemeinen ein Begriff für Datenbanksysteme, die nicht dem Prinzip von relationalen Datenbanken folgen. Daten werden nicht relational gespeichert und es wird auch kein SQL als Abfragesprache verwendet.
+NoSQL ist im allgemeinen ein Begriff für Datenbanksysteme, die nicht dem Prinzip von relationalen Datenbanken folgen. Daten werden nicht relational gespeichert und es wird auch kein SQL als Abfragesprache verwendet.[Getting Started with NoSQL: S.7]
 
 Der Bedarf an solchen Datenbankmodellen entstand Ende der Neunziger Jahre, als man an die Leistungsgrenze der bis dahin eingesetzten relationalen Systeme stieß. Ein stetiger Anstieg von Schreib- und Lesezugriffe, führte dazu, dass Datenbankoperationen nicht mehr effizient ausgeführt werden konnten. In der Regel werden bei relationalen Datenbanken sogenannte Transaktionen verwendet, welche bei Zugriff auf einen Datensatz, diesen Datensatz für andere Transaktionen sperren.
 
-Der Vorteil von NoSQL Datenbanken ist vor allem die hohe Skalierbarkeit und Geschwindigkeit. In einem verteilten Datenbanksystem definiert Eric Brewer 3 Eigenschaften, welche für verschiedene Anwendungsfälle wichtig sein können: 'Consistency', 'Availability' und 'Partition tolerance'. Das CAP-Theorem besagt, das lediglich nur zwei dieser drei Eigenschaften in einem Datenbanksystem garantiert werden können. Im Falle von NoSQL sind 'Availability' und 'Partition tolerance' die herrausstechenden Merkmale.
+Der Vorteil von NoSQL Datenbanken ist vor allem die hohe Skalierbarkeit und Geschwindigkeit.[http://home.aubg.bg/students/ENL100/Cloud%20Computing/Research%20Paper/nosqldbs.pdf] 
+
+In einem verteilten Datenbanksystem definiert Eric Brewer 3 Eigenschaften, welche für verschiedene Anwendungsfälle wichtig sein können: 'Consistency', 'Availability' und 'Partition tolerance'. Das CAP-Theorem besagt, das lediglich nur zwei dieser drei Eigenschaften in einem Datenbanksystem garantiert werden können.[http://www.cs.berkeley.edu/~brewer/cs262b-2004/PODC-keynote.pdf] Im Falle von NoSQL sind 'Availability' und 'Partition tolerance' die herrausstechenden Merkmale.
+
+    Abbildung CAP Theorem
 
 # Annotations
 
