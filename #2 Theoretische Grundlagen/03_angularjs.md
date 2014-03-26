@@ -1,5 +1,3 @@
-# Final Text
-
 [AngularJS](http://www.angularjs.org) ist ein MVC (Model-View-Controller) JavaScript Framework zum Erstellen von interaktiven, dynamischen Single Page Applications.
 
 Bis zum Jahr 2008 war JavaScript eine vergleichsweise langsame Skriptsprache. Durch ständiges Weiterentwickeln der JavaScript Engines durch die Browserhersteller, konnte das Ausführen von JavaScript Code in den letzten Jahren jedoch deutlich beschleunigt werden.[http://books.google.de/books?id=ED6ph4WEIoQC&lpg=PR7&ots=2Uwg0FZfiM&dq=javascript%20performance%20evolution&lr&hl=de&pg=PR13#v=onepage&q&f=false]
