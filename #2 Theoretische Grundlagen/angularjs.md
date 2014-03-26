@@ -14,13 +14,16 @@ Jedoch ist jQuery keine vollständige Lösung um interaktive Anwendungen zu erst
 
 Eine Fähigkeit von AngularJS ist das 2-way-data-binding, welches den Zugriff auf Models direkt aus der View heraus ermöglicht. Veränderungen am Model können dann durch das Framework erkannt werden und das DOM wird aktualisiert.[Mastering Web App Development with AngularJS, Seite 10ff]
 
+```html
     <body ng-app ng-init="name = 'World'">
         Say hello to: <input type="text" ng-model="name">
         <h1>Hello, {{name}}!</h1>
     </body>
+```
 
-Das wirklich besondere an AngularJS ist die Fähigkeit die HTML Sprache um eigene Tags anreichern zu können. Durch die Implementierung sogenannter Direktiven werden Funktionen nicht nur vom restlichen Code abgekapselt und dadurch wiederverwendbar, sondern bekommen in der endgültigen View eine semantische Bedeutung und machen den HTML Code lesbarer. In Abbildung X.X wird die von AngularJS mitgelieferte Direktive ng-repeat verwendet um über ein Array zu iterieren und dessen Inhalte auszugeben.
+Das wirklich besondere an AngularJS ist die Fähigkeit HTML um eigene Tags anreichern zu können. Durch die Implementierung sogenannter Direktiven werden Funktionen nicht nur vom restlichen Quellcode abgekapselt und dadurch wiederverwendbar, sondern bekommen in der endgültigen View eine semantische Bedeutung und vereinfachen somit die Lesbarkeit für Entwickler. In Abbildung X.X wird die von AngularJS mitgelieferte Direktive ng-repeat verwendet um über ein Array zu iterieren und dessen Inhalte auszugeben.
 
+```html
     <ul ng-controller="WorldCtrl">
         <li ng-repeat="country in countries">
             {{country.name}} has population of {{country.population}}
@@ -38,8 +41,4 @@ Das wirklich besondere an AngularJS ist die Fähigkeit die HTML Sprache um eigen
             ];
         };
     </script>
-
-
-
-
-
+```
