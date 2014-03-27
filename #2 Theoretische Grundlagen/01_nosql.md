@@ -6,7 +6,7 @@ In der Regel werden bei relationalen Datenbanken sogenannte Transaktionen verwen
 - Soft state: Daten können sich auch ohne spezifische Eingaben verändern
 - Eventual consistency: Die Datenbank kann zeitweise inkonsistent sein, kehrt dann aber zu einem konsistenten Status zurück
 
-In einem verteilten Datenbanksystem definiert Eric Brewer 3 Eigenschaften, welche verschiedene Anwendungsfälle wichtig sein können: 'Consistency', 'Availability' und 'Partition tolerance'. Das sogenannte CAP-Theorem besagt, das lediglich nur zwei dieser drei Eigenschaften in einem Datenbanksystem garantiert werden können.[http://www.cs.berkeley.edu/~brewer/cs262b-2004/PODC-keynote.pdf] Im Falle von NoSQL sind 'Availability' und 'Partition tolerance' die herrausstechenden Merkmale.
+In einem verteilten Datenbanksystem definiert Eric Brewer 3 Eigenschaften, welche für verschiedene Anwendungsfälle wichtig sein können: 'Consistency', 'Availability' und 'Partition tolerance'. Das sogenannte CAP-Theorem besagt, das lediglich nur zwei dieser drei Eigenschaften in einem Datenbanksystem garantiert werden können.[http://www.cs.berkeley.edu/~brewer/cs262b-2004/PODC-keynote.pdf] Im Falle von NoSQL sind 'Availability' und 'Partition tolerance' die herrausstechenden Merkmale.
 
     Abbildung CAP Theorem(http://docs.couchdb.org/en/latest/intro/consistency.html#intro-consistency)
 

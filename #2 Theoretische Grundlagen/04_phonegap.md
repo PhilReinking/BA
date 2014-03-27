@@ -6,7 +6,3 @@ Eine native Applikation auf dem Handy ist effektiver, wenn man auf gerätespezif
 
 Der Build-Prozess einer Applikation erfordert zusätzlich das SDK des entsprechenden Betriebssystems. Zum Beispiel muss für die Android Kompilierung das Android SDK installiert sein und für die Kompilierung zu einer iOS App wird xCode benötigt.
 
-
-
-
-
