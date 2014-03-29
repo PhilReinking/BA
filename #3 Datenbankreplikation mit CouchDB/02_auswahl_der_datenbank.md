@@ -69,18 +69,3 @@ Mit der PouchDB ist es möglich die Replikation zwischen IndexedDB, welche von P
 ### IndexedDB, PouchDB und CouchDB
 
 Mit der IndexedDB kommt eine in modernen Browsern verfügbare Datenbank zum Einsatz, welche die Anforderungen A und B erfüllt. Zusätzlich wird die CouchDB in Kombination mit der PouchDB verwendet um Anforderung C, die Synchronisierung zwischen den Datenbanken, zu erfüllen.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
