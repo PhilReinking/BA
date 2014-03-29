@@ -1,4 +1,6 @@
-## Lokaler Datenspeicher in PhoneGap
+## Auswahl der Datenbank
+
+### Lokaler Datenspeicher in PhoneGap
 
 Die wohl am schwersten zu bewältigende Anforderung ist durch die Wahl von PhoneGap als Zielplattform entstanden. Die Tatsache, dass die Anwendung in einer Webview laufen wird, verringert die Auswahlmöglichkeiten einer passenden Datenbank.
 
@@ -33,7 +35,7 @@ Die API wird über JavaScript angesprochen und Objekte werden in der JSON Notati
     };
 ```
 
-## Synchronisierung
+### Synchronisierung
 
 Die lokal gespeicherten Daten in der IndexedDB mit anderen Geräten im Netzwerk zu synchronisieren, ist eine weitere Anforderung die erfüllt werden muss. 
 
@@ -57,12 +59,14 @@ http://weblogs.asp.net/britchie/archive/2010/08/17/document-databases-compared-m
 
 Die CouchDB übertrumpft im Anwendungsfall dieser Arbeit die MongoDB, da die Unterstützung für JSON-Objekte, Versionierung und Master-Master Replikation gegeben ist.
 
+### Gemeinsame API für IndexedDB und CouchDB
+
 Es gibt nicht viele Datenbanken die eine direkte Kompatibilität zur IndexedDB herstellen. Die PouchDB ist ein im Juni 2010 entstandenes OpenSource Projekt, dass es sich zur Aufgabe gemacht hat die funktionsweise der CouchDB direkt in den Browser zu übertragen. Das Projekt befindet sich fortlaufend in Entwicklung, und wurde am 2. Januar 2014 in der Version 1.1.0 veröffentlicht.
 
 Mit der PouchDB ist es möglich die Replikation zwischen IndexedDB, welche von PouchDB als Speicher verwendet wird, und CouchDB durchzuführen.
 
 
-## IndexedDB, PouchDB und CouchDB
+### IndexedDB, PouchDB und CouchDB
 
 Mit der IndexedDB kommt eine in modernen Browsern verfügbare Datenbank zum Einsatz, welche die Anforderungen A und B erfüllt. Zusätzlich wird die CouchDB in Kombination mit der PouchDB verwendet um Anforderung C, die Synchronisierung zwischen den Datenbanken, zu erfüllen.
 
