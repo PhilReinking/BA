@@ -53,6 +53,8 @@ MongoDB und CouchDB sind jeweils Dokumentenorientierte und mit JavaScript kompat
 |               |                     | Master-Slave  |
 | Protokoll     | TCP/IP              | HTTP/REST API |
 
+http://weblogs.asp.net/britchie/archive/2010/08/17/document-databases-compared-mongodb-couchdb-and-ravendb.aspx
+
 Die CouchDB übertrumpft im Anwendungsfall dieser Arbeit die MongoDB, da die Unterstützung für JSON-Objekte, Versionierung und Master-Master Replikation gegeben ist.
 
 Es gibt nicht viele Datenbanken die eine direkte Kompatibilität zur IndexedDB herstellen. Die PouchDB ist ein im Juni 2010 entstandenes OpenSource Projekt, dass es sich zur Aufgabe gemacht hat die funktionsweise der CouchDB direkt in den Browser zu übertragen. Das Projekt befindet sich fortlaufend in Entwicklung, und wurde am 2. Januar 2014 in der Version 1.1.0 veröffentlicht.
