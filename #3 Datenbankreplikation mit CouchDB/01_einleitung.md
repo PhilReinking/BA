@@ -58,13 +58,13 @@ Nachbedinung:
 Auf Ebene der Datenbank lassen sich 3 funktionale Anforderungen identifizieren, die benötigt werden um das zuvor beschriebene Szenario erfolgreich bestehen zu können.
 
 **A: Kompatibilität zur Laufzeitumgebung PhoneGap (Webview):**  
-Diese Anforderung ergibt sich vorwiegend aus der Wahl von PhoneGap als Zielplattform. Die Datenbank muss mit JavaScript kompatibel sein und über eine entsprechende Schnittstelle verfügen die auch auch auf mobilen Geräten verwendet werden kann.
+Diese Anforderung ergibt sich vorwiegend aus der Wahl von PhoneGap als Zielplattform. Die Datenbank muss mit JavaScript kompatibel sein und über eine entsprechende Schnittstelle verfügen, die auch auf mobilen Geräten verwendet werden kann.
 
 **B: Daten können offline gespeichert werden:**  
 Die Datenbank kann Daten auch offline speichern und ist damit unabhängig von einer aktiven Internetverbindung.
 
 **C: Synchronisierung zwischen beliebig vielen Geräten:**  
-Um Statusmeldungen auf alle Geräte verteilen zu können muss die Datenbank in der Lage sein diese Daten zu synchronisieren.
+Um Statusmeldungen auf alle Geräte verteilen zu können, muss die Datenbank in der Lage sein, diese Daten zu synchronisieren.
 
 
 

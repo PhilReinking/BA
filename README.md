@@ -1,7 +1,7 @@
 ## Entwicklung einer Social Extranet Plattform als hybride Applikation für mobile Endgeräte mit Online und Offline Synchronisierung
 
 ### Motivation
-Soziale Interaktionen mittels Facebook, Twitter und Co sind heutzutage Alltag. Jedoch ist absehbar, dass immer mehr Menschen kleinere und auf bestimmte Themen spezialisierte Plattformen den großen Netzwerken wie Facebook oder Google+ vorziehen. Auch in Unternehmen werden gerne solche Netzwerke, mangels Alternativen, für die interne Kommunikation benutzt.  
+Soziale Interaktionen mittels Facebook, Twitter und Co sind heutzutage Alltag. Jedoch ist absehbar, dass immer mehr Menschen kleinere und auf bestimmte Themen spezialisierte Plattformen den großen Netzwerken wie Facebook oder Google+ vorziehen werden. Auch in Unternehmen werden gerne solche Netzwerke, mangels Alternativen, für die interne Kommunikation benutzt.  
 Um der Entstehung von kleinen themen- und aufgabenspezifischen Netzwerken eine Basis zu bieten, soll eine Plattform für ein soziales Extranet entwickelt werden.
 
 ### Technische Umsetzung

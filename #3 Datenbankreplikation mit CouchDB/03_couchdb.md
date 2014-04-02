@@ -18,7 +18,7 @@ Die Abfrage von Daten erfolgt über in der CouchDB erstellte Views und untersche
 
 In der *Map* Funktion kann jeder Wert des aktuellen Dokumentes ausgelesen werden und dazu verwendet werden einen *key* für dieses Dokument zu generieren. Die CouchDB nutzt diese *keys* zur Sortierung in Spalten und macht es so möglich durch Angabe eines bestimmten Bereichs auch große Datenmengen effizient zu durchsuchen und das entsprechende Ergebnis auszugeben.
 
-Das interessante daran ist, dass die *keys* nicht nur einzelne Werte, sondern auch Arrays sein können. Zueinander in Relation stehende Dokumente können damit in der View hintereinander indexiert werden.
+Das Interessante daran ist, dass die *keys* nicht nur einzelne Werte, sondern auch Arrays sein können. Zueinander in Relation stehende Dokumente können damit in der View hintereinander indexiert werden.
 
 ```json
 {
@@ -67,7 +67,7 @@ function(doc){
 
 Die Replikation von Datenbanken innerhalb eines CouchDB Clusters erfolgt schrittweise. Das bedeutet dass die Datenbanken keine ständige Verbindung zueinander benötigen, wie es bei vielen relationalen Datenbanksystemen der Fall ist. Sobald eine Datenbank einen Replikationsprozess beendet hat ist sie auch eigenständig funktionsfähig.
 
-Die Applikation entscheidet selbst, wann eine Replikation sinnvoll ist und kann diese durch die CouchDB API auslösen. Durch Angabe von Quelle und Ziel wird bestimmt in welche Richtung rpeliziert wird.
+Die Applikation entscheidet selbst, wann eine Replikation sinnvoll ist und kann diese durch die CouchDB API auslösen. Durch Angabe von Quelle und Ziel wird bestimmt in welche Richtung repliziert wird.
 
 Natürlich kann es passieren dass Datenbanken während einer Replikation Dokumente beinhalten die zueinander in Konflikt stehen. In diesem Fall besitzt die CouchDB einen Algorithmus, der entscheidet welche der beiden Versionen als aktuell gespeichert werden soll. Das Verlierer-Dokument wird aber keinesfalls verworfen, sondern wird unter einer anderen Revision gespeichert. So ist es auch möglich Applikationen zu bauen, die Konflikte nachträglich überprüfen können und gegebenfalls selbst entscheiden welches Dokument behalten werden soll.
 
