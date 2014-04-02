@@ -47,13 +47,13 @@ db.replicate.from(remote, {
 **filter:**  
 Ruft eine Funktion auf um Dokumente selektiv zu replizieren. Hiermit kann erreicht werden, dass nur Daten geladen werden die einen Zeitstempel aufweisen der nicht älter als 24 Stunden ist. Alternativ kann aber auch nur nach Dokumenten gesucht werden die einen bestimmten Wert enthalten.
 
-**doc_ids:**
+**doc_ids:**  
 Repliziert nur Dokumente mit den angebenen *ids*.
 
-**complete**
+**complete:**  
 Wenn der Replikationsprozess fertig ist, wird diese Funktion aufgerufen. 
 
-**continuous (seit PouchDB 2.0 *live*)**
+**continuous (seit PouchDB 2.0 *live*):**  
 Diese Option legt fest ob ein Prozess nur einmalig durchlaufen wird und danach beendet wird oder ob der Prozess fortlaufen auf Änderungen wartet.
 
 
