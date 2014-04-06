@@ -63,7 +63,7 @@ Die CouchDB übertrumpft im Anwendungsfall dieser Arbeit die MongoDB, da die Unt
 
 Es gibt nicht viele Datenbanken, die eine direkte Kompatibilität zur IndexedDB herstellen. Die PouchDB ist ein im Juni 2010 entstandenes OpenSource Projekt, dass es sich zur Aufgabe gemacht hat, die Funktionsweise der CouchDB direkt in den Browser zu übertragen. Das Projekt befindet sich fortlaufend in Entwicklung, und wurde am 2. Januar 2014 in der Version 1.1.0 veröffentlicht.
 
-Mit der PouchDB ist es möglich, die Replikation zwischen IndexedDB, welche von PouchDB als Speicher verwendet wird, und CouchDB durchzuführen.
+Mit der PouchDB ist es möglich, die Replikation zwischen IndexedDB, welche von PouchDB als Datenspeicher verwendet wird, und CouchDB durchzuführen.
 
 
 ### IndexedDB, PouchDB und CouchDB

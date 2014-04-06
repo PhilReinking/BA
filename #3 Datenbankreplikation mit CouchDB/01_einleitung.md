@@ -6,7 +6,7 @@ Die Entscheidung für ein passendes Datenbanksystem ist für das Ergebnis dieser
 
 Die Anforderungen an die Datenbank werden aus einem geplanten Testszenario hergeleitet, welches im Laufe dieser Arbeit an einer Schule mit ca. 15 Testpersonen durchgeführt wird:
 
-*"Eine Smartphone Applikation soll für maximal 15 Person ermöglichen, Statusmeldungen in Form von Text über ein Netzwerk in Echtzeit auszutauschen. Das Experiment wird an einem Ort mit mangelhaftem Mobilfunk durchgeführt, sodass Verbindunsabbrüche zum Netzwerk auftreten können."*
+*"Eine Smartphone Applikation soll für maximal 15 Person ermöglichen, Statusmeldungen in Form von Text über ein Netzwerk in Echtzeit auszutauschen. Das Experiment wird an einem Ort mit mangelhaftem Mobilfunk durchgeführt, sodass Verbindungsabbrüche zum Netzwerk auftreten können."*
 
 Aus diesem Szenario ergeben sich folgende Einschränkungen:
 - das Netzwerk hat maximal 15 Teilnehmer
