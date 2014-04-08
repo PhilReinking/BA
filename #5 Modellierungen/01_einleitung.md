@@ -41,6 +41,18 @@ Diese Prozesse sind vollständig auf die eigenen Bedürfnisse einer Anwendung ko
 
 Die fertige Applikation wird mit `grunt serve` in einer optimierten Fassung mit minimiertem CSS, JavaScript und HTML generiert.
 
+## JSON Schema
+
+Das Schema der zu speichernden JSON Objekte ist zu jedem Zeitpunkt in der Entwicklung sehr flexibel, jedoch werden einige Schlüsselattribute vorgegeben um so z.B. eine Relation zwischen einem Beitrag und einem dazugehörenden Kommentar herzustellen.
+
+```json
+ppSyncServiceDocument = {
+    type: string, // POST, COMMENT
+    created: timestamp, // UNIX TIMESTAMP
+    posting: string // id des Eltern-Elements
+}
+```
+
 
 
 
