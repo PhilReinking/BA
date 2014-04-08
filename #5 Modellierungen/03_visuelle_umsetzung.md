@@ -42,7 +42,7 @@ Als Einstieg in die Applikation ist die erste Komponente, das Dashboard, gedacht
 </div>
 ```
 
-In ABBILDUNG ist der HTML-Code des finalen Login-Formulars. In diesem Beispiel werden schon einige AngularJS Funktionen benutzt, welche hier nochmals im Detail erklärt werden sollen.
+ABBILDUNG zeigt den HTML-Code des finalen Login-Formulars. In diesem Beispiel werden schon einige AngularJS Funktionen benutzt, welche hier nochmals im Detail erklärt werden sollen.
 
 Der Einsatz von Direktiven ist in AngularJS eine einfache Möglichkeit um vorhandene Elemente zu manipulieren oder funktional zu erweitern. AngularJS stellt eine Vielzahl von einsatzfähigen Direktiven, erkennbar an dem Prefix *ng-*, bereit, es lassen sich aber auch eigene Direktiven erstellen.
 
@@ -52,4 +52,4 @@ Das Formular selbst wird mit der Direktive *ng-submit* belegt. Wenn das Formular
 
 Die 2 Input-Elemente werden mit der *ng-model* Direktive ausgestattet und bewirkt, dass die Inhalte der Input Elemente direkt in die hier deklarierten Models gespeichert werden. Der Controller erhält dann natürlich Zugriff auf diese Models und kann diese verarbeiten.
 
-Als letzte hier verwendetete Direktive kommt *ng-class* zum Einsatz, welche ähnlich wie *ng-show* und *ng-hide* funktioniert, jedoch hier im Falle einer als wahr ausgewerteten Bedingung, die mitübergebene CSS-Klasse gesetzt wird. Der Submit-Button wird im Login-Formular mithilfe von *ng-class* erst dann aktiviert, wenn beide Input-Felder ausgefüllt wurden.
+Als letzte im Login-Formular verwendetete Direktive kommt *ng-class* zum Einsatz, welche ähnlich wie *ng-show* und *ng-hide* funktioniert, jedoch hier im Falle einer als wahr ausgewerteten Bedingung, dem Element die mitübergebene CSS-Klasse hinzugefügt wird. Der Submit-Button wird im Login-Formular mithilfe von *ng-class* erst dann aktiviert, wenn beide Input-Felder ausgefüllt wurden.

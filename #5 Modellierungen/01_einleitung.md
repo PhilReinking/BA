@@ -34,7 +34,7 @@ Phonegap Project
 Die gesamte Applikationslogik wird unter dem Ordner www abgelegt. Zusätzlich befindet sich dort die Datei config.xml, eine Konfigurationsdatei in der beispielsweise Name und Versionsnummer der Applikation festgelegt wird, aber auch welche Berechtigungen auf Geräten mit Android benötigt oder welche Plugins eingebunden werden. PhoneGap stellt solche Plugins zur Verfügung und ermöglicht dadurch auf gerätespezifische Funktionen wie Kamera oder GPS zuzugreifen.
 
 Zusätzlich zu dem PhoneGap Projektordner, wird ein weiterer getrennter Ordner zum aktiven Entwickeln der Applikation erstellt. Unter Zuhilfenahme der Tools Yeoman, Grunt und Bower wird das AngularJS Projekt verwaltet.  
-Der Grund für den Einsatz dieser Tools ist, dass viele Prozesse während der Entwicklung einer modernen Webapplikation automatisiert werden sollten um  effizient daran arbeiten zu können.  
+Der Grund für den Einsatz dieser Tools ist, dass viele Prozesse während der Entwicklung an einer modernen Webapplikation automatisiert werden sollten, um  effizient daran arbeiten zu können.  
 Als Beispiel soll hier der der Einsatz von Sass in Kombination mit Compass als CSS-Precompiler dienen. Wird eine Sass Datei geändert, kann Grunt automatisch den Compass Compiler ausführen und die CSS Datei damit aktualisieren. Ebenso ist es möglich den JavaScript Code mit einem sogenannten Linter zu validieren, der Warnungen ausgibt, sobald Fehler in der JavaScript Syntax gefunden wurden. 
 
 Diese Prozesse sind vollständig auf die eigenen Bedürfnisse einer Anwendung konfigurierbar und bieten damit größtmögliche Flexibilität beim Entwickeln von Applikationen.
