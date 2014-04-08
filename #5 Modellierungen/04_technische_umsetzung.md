@@ -1,0 +1,8 @@
+## Technische Umsetzung
+
+### ppSync
+
+
+
+
+### BAnet
