@@ -80,3 +80,16 @@ angular.module('banetApp')
     };
   });
 ```
+
+In der View erhält das Formular die Direktive *ngSubmit* um die Funktion *newPin()* auszulösen. Der Textarea wird mit *ngModel* die Variable zugewiesen, die von der *newPin()* Funktion ausgelesen wird.
+
+```html
+<form ng-submit="newPin()">
+  <div class="form-group">
+    <label for="PinContentId">Content</label>
+    <textarea class="form-control" id="PinContentId" rows="3" ng-model="pin.msg" ng-disabled="isSubmitting" required></textarea>
+  </div>
+  <button type="submit" class="btn btn-primary" ng-disabled="isSubmitting">Submit <i ng-show="isSubmitting" class="fa fa-spinner fa-spin"></i></button>
+</form>
+```
+
