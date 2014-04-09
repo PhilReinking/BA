@@ -2,7 +2,7 @@
 
 ### AngularJS Modul Aufbau
 
-Der Aufbau des ppSyncService Moduls als Factory ist in ABBILDUNG zu sehen. Der Rückgabewert dieses Services ist ein Objekt mit Funktionen, die benötigt werden um mit der Datenbank zu interagieren. Funktionen und Variablen die nicht ausserhalb dieses Moduls zugänglich sein sollen, werden innerhalb der anonymen Funktion der Factory erstellt werden.
+Der grundlegende Aufbau des ppSyncService Moduls als Factory ist in ABBILDUNG zu sehen. Der Rückgabewert dieses Services ist ein Objekt mit Funktionen, die benötigt werden um mit der Datenbank zu interagieren. Funktionen und Variablen die nicht ausserhalb dieses Moduls zugänglich sein sollen, werden innerhalb der anonymen Funktion der Factory erstellt werden.
 
 ```javascript
 var ppSync = angular.module('ppSync', ['ng']);
@@ -370,35 +370,4 @@ reset: function() {
   PouchDB.destroy(dbname);
   db = new PouchDB(dbname);
 }
-```
-
-
-## Technische Umsetzung Dashboard
-
-```javascript
-
-```
-
-```html
-
-```
-
-## Technische Umsetzung Pinboard
-
-```javascript
-
-```
-
-```html
-
-```
-
-## Technische Umsetzung Channel
-
-```javascript
-
-```
-
-```html
-
 ```
